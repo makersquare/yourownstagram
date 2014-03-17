@@ -31,6 +31,9 @@ gem 'devise'
 # For image uploading
 gem 'carrierwave'
 
+# For saving environment variables
+gem 'figaro'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
