@@ -6,7 +6,10 @@ Yourownstagram::Application.routes.draw do
   get '/users/:id', to: 'users#show'
 
   scope :api do
-    resources :images
+    resources :images do
+      post '/api/images/:id/comments', to: 'comments#new'
+      post '/api/images/:id/likes', to: 'likes#new'
+    end
   end
 
 end
