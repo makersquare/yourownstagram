@@ -37,6 +37,10 @@ gem 'fog'
 # For saving environment variables
 gem 'figaro'
 
+# For Backbone
+
+gem 'rails-backbone'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
