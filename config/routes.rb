@@ -1,9 +1,9 @@
 Yourownstagram::Application.routes.draw do
+  root "images#index"
+  
   devise_for :users
-  # devise_scope :user do
-  #   root "devise/sessions#new"
-  # end
-  root "users#show"
+  
+  get '/users/:id', to: 'users#show'
 
   scope :api do
     resources :images
