@@ -31,6 +31,9 @@ gem 'devise'
 # For image uploading
 gem 'carrierwave'
 
+# For uploading to AWS
+gem 'fog'
+
 # For saving environment variables
 gem 'figaro'
 
